@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo List</title>
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <br>
+                <h3>Todo Task</h3><br><br><br>
+               <input placeholder="Enter Task" id="todo-input" class="todo-input" type="text">
+               <button type="button" class="btn btn-primary" onclick="addTodo()">ADD TASK</button>
+               <button type="button" onclick='deleteAll()' class="btn btn-danger">DELETE ALL</button>
+            </div>
+      </div>
+    </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                    <ol id="list">
+                      
+                    </ol>
+ 
+                </div>
+                </div>
+                </div>
+                <script src="script.js"></script>
+    
+</body>
+</html>
